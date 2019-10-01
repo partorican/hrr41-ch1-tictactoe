@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/knight.jpg');
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#x, #o {
+  font: 22px Helvetica, Sans-Serif;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+#board {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background: rgb(223, 195, 103);
+}
+
+#xScore{
+  padding-right: 20px;
+}
+
+#player1-X, #player2-O {
+  font: 22px Helvetica, Sans-Serif;
+  color: rgb(0, 0, 0);
+}
+
+.score{
+  font: 22px Helvetica, Sans-Serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  background: rgb(223, 195, 103);
+}
+
+#message{
+  margin: 20px;
+  background: rgb(223, 195, 103);
+}
+
+#referee {
+  font: 22px Helvetica, Sans-Serif;
+}
+
+#refereeMessage {
+  font: 22px Helvetica, Sans-Serif;
+  color: rgb(0, 0, 0);
+}
+
+#restart {
+  font: 22px Helvetica, Sans-Serif;
+  background: rgb(223, 195, 103);
+  font-size: 25px;
+}
+
+#restart:hover{
+  color: rgb(75, 63, 18);
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  padding: 8px;
+  opacity: 1;
+  background: rgb(252, 140, 4);
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+  font: 22px Helvetica, Sans-Serif;
+}
+
+table td, table th {
+  border: 5px solid black;
+  background: rgb(223, 195, 103);
+  text-align: center;
+  opacity: 0.7;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+}
